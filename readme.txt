@@ -1,35 +1,34 @@
-Moodle Lightbox Gallery v2.2.1 (12th May 09)
+Moodle jQuery Lightbox Gallery v1.0.0 (16th Nov 11)
 
- * ABOUT *
+* CREDITS *
+Ported to jQuery from:
+Lightbox Gallery v2.2.1 (12th May 09) 
+by Paul Holden pholden[at]greenhead[dot]ac[dot]uk
+http://moodle.greenhead.ac.uk/external/lightbox_gallery/
 
-This resource allows you to create 'Lightbox' enabled image galleries within your Moodle course.
+Port performed by Andrew Hancox at Kineo.
+http://www.kineo.com/
 
 The javascript heavy lifting is performed by:
     slimbox 2 : http://www.digitalia.be/software/slimbox2
     Jcrop :     http://deepliquid.com/content/Jcrop.html
 
-As a course teacher, you are able to create, edit and delete galleries. The main configuration option
-involves telling Moodle which directory contains the images you want to include in the gallery. Small
-thumbnails will then be generated, which are used for the thumbnail view of the gallery.
+ * INSTALLATION *
 
-Clicking on any of the thumbnails brings that image into focus, and allows you to scroll through the
-gallery at your leisure. Using the Lightbox scripts creates nice transition effects when loading and
-scrolling through the images.
+To install this plugin, upload the lightboxgallery folder and it's contents into your /mod folder in
+your Moodle install. After uploading, login as admin and visit your Admin/Notifications page (you'll
+find this page at http://yoursite.com/moodle/admin/index.php), which will setup the required database
+tables and complete the installation.
 
-This upgrade includes various bug fixes and code enhancements, including fixes to the 'crop' and 'tag'
-image editing plugins.
+After installation you'll find an extra item on your resources menu when editing a page. In an English
+install of Moodle it will be named 'Add a lightbox gallery', this could differ for other languages.
 
 This plugin was designed for Moodle version 1.9 and upwards
-
- * INSTALLATION / UPGRADING *
-
-For installation/upgrading instructions, see the file install.txt in this archive. After installation
-you'll find an extra item on your resources menu when editing a page. In an English install of Moodle
-it will be named 'Add a lightbox gallery', this could differ for other languages.
 
  * HOMEPAGE *
 
 https://github.com/andrewhancox/Moodle-jQuery-Lightbox-Gallery
+http://www.kineo.com/
 
  * CONTACT *
 
