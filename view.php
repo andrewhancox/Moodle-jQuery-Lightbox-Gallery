@@ -47,6 +47,10 @@
         require_capability('mod/lightboxgallery:edit', $context);
     }
 
+    if (!$cm->visible and !has_capability('moodle/course:viewhiddenactivities', $context)) {
+        notice(get_string("activityiscurrentlyhidden"),$CFG->wwwroot . '/course/view.php?id=' . $course->id);
+    }    
+
     lightboxgallery_config_defaults();
 
     add_to_log($course->id, 'lightboxgallery', 'view', 'view.php?id=' . $cm->id . '&page=' . $page, $gallery->id, $cm->id, $userid);
